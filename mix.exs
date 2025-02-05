@@ -128,6 +128,7 @@ defmodule AshSqlite.MixProject do
     [
       {:ecto_sql, "~> 3.9"},
       {:ecto_sqlite3, "~> 0.12"},
+      {:tds, ">= 0.0.0"},
       {:ecto, "~> 3.9"},
       {:jason, "~> 1.0"},
       {:ash, ash_version("~> 3.4 and >= 3.4.58")},
